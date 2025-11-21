@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titrasi Asam Basa</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">Nining Kurniati</div>
+            <div class="toggle" id="toggle">☰</div>
+            <nav class="menu" id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Titrasi_asam%E2%80%93basa">Resource</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <h1>Titrasi Asam Basa</h1>
+            <p>Memahami konsep, kurva, dan penerapan titrasi dalam analisis kimia.</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="section" id="pengertian">
+            <h2>Pengertian</h2>
+            <p>
+                Titrasi asam basa adalah salah satu metode analisis kuantitatif yang paling umum digunakan dalam kimia analitik. Metode ini bertujuan untuk menentukan konsentrasi suatu larutan yang tidak diketahui dengan cara menambahkan larutan standar secara bertahap hingga tercapai titik ekivalen.
+                <br><br>
+                Dalam titrasi, perubahan pH akan diamati sesuai dengan banyaknya titran yang ditambahkan. Pada titik ekivalen, jumlah mol asam sama dengan jumlah mol basa sesuai reaksi stoikiometri. Perubahan pH ini dapat divisualisasikan melalui kurva titrasi.
+                <br><br>
+                Selain digunakan dalam laboratorium pendidikan, titrasi juga berperan penting dalam industri farmasi, pangan, laboratorium kesehatan, serta pengolahan air. Metode ini memungkinkan pengukuran konsentrasi zat dengan tingkat akurasi tinggi.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="image/kurva.png" />
+            <h3>Kurva Titrasi</h3>
+            <p>
+                Kurva titrasi menggambarkan hubungan antara pH larutan dengan volume titran yang ditambahkan. Bentuk kurva akan berbeda untuk titrasi asam kuat-basa kuat, asam lemah-basa kuat, maupun basa lemah-asam kuat.
+                Kurva ini sangat penting karena dapat menunjukkan titik ekivalen serta menentukan indikator apa yang paling sesuai digunakan.
+            </p>
+            <a href="https://www.khanacademy.org/test-prep/mcat/chemical-processes/titrations-and-solubility-equilibria/a/acid-base-titration-curves" class="read">Lihat Detail →</a>
+        </div>
+
+        <div class="card" id="jenis">
+            <img src="image/titration.webp" />
+            <h3>Jenis Titrasi</h3>
+            <p>
+                Jenis titrasi asam basa dibedakan berdasarkan kekuatan asam dan basa yang terlibat. Misalnya: titrasi asam kuat dengan basa kuat memiliki kurva dengan perubahan pH yang drastis, sedangkan titrasi asam lemah-basa kuat memiliki kurva yang lebih landai. Pemahaman perbedaan ini penting untuk memilih indikator yang tepat dan menganalisis kurva dengan akurat.
+            </p>
+            <a href="https://www.metrohm.com/id_id/discover/blog/2023/titrasi---pengertian--prinsip--jenis--dan-rumusnya.html" class="read">Pelajari →</a>
+        </div>
+
+        <div class="card" id="alat">
+            <img src="image/bahan titrasi.png" />
+            <h3>Alat & Bahan</h3>
+            <p>
+                Alat dan bahan yang digunakan dalam titrasi meliputi buret, erlenmeyer, pipet volume, indikator asam basa, larutan standar seperti NaOH atau HCl, serta sampel yang akan dianalisis. Setiap alat memiliki fungsi penting dan harus digunakan dengan benar untuk memperoleh hasil yang akurat.
+            </p>
+            <a href="https://www.pijarbelajar.id/blog/titrasi-asam-basa" class="read">Detail Alat →</a>
+        </div>
+    </section>
+
+    <footer>© 2025 A1F025013 — Nining kurniati</footer>
+
+    <script>
+        const toggle = document.getElementById("toggle");
+        const menu = document.getElementById("menu");
+
+        toggle.addEventListener("click", () => {
+            menu.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
+
+/* ================== CSS (style.css) ================== */
+

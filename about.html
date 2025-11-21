@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Pastel Pink</title>
+    <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Nining Kurniati</div>
+            <div class="toggle" id="toggle">☰</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="https://id.wikipedia.org/wiki/Titrasi_asam%E2%80%93basa">Resource</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="image/nining.jpg" alt="Foto Profil" class="profile-img" />
+        <h1>Halo, Aku Nining Kurniati</h1>
+        <p>Guru ngaji • MC Formal & Non-formal • Public Speaking • Ilustrator Tipis-tipis</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Aku</h2>
+        <p>Aku memiliki pengalaman mengajar sebagai guru, menjadi MC formal dan non-formal, serta memiliki skill public speaking yang kuat. Selain itu, aku juga bisa menggambar ringan untuk kebutuhan ilustrasi.</p>
+    </section>
+
+
+
+    <script>
+        const toggle = document.getElementById("toggle");
+        const nav = document.getElementById("nav-links");
+        toggle.addEventListener("click", () => nav.classList.toggle("open"));
+    </script>
+</body>
+</html>
+
+
